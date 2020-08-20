@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">ik
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Thank You For Donation</title>
+    <title>Thank You For Your Donation</title>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,12 +26,12 @@
 
       <div class="page-header">
         
-        <p class="lead" style=color:blue>Thank you for your donation to sahil's Charity.</p>
+        <!--<p class="lead" style=color:blue>Thank you for your donation to sahil's Charity.</p>-->
       </div>
 
-      <strong><h3 style="color:#6da552">Thank You..!! Payment Done Sucessfully!!</h3> </strong>
+      <strong><h3 style="color:#63c5DA">Thank You..!! Payment Done Sucessfully!!</h3> </strong>
    
-    <p> Thank you for supporting Charity work with your generous regular donations. Your valuable gift is helping us provide long-term support to girls and poor people.
+    <p> Thank you for supporting Charity work with your generous donations. Your valuable gift is helping us provide long-term support to girls and poor people.
 </p>
 <p>Note : Check Your Email For Transection Detail</p>
  <?php
@@ -65,15 +65,9 @@ catch (Exception $e) {
     print('Error: ' . $e->getMessage());
 }
 
-
-
   ?>
-
-
       
     </div> <!-- /container -->
-
-
 
 
   </body>
