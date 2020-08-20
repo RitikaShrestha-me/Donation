@@ -1,0 +1,97 @@
+
+body{
+
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	background-image: url("corona.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #999;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+
+}
+
+header{
+	height: 15vh;
+	background-color: #000;
+	text-align: left;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted white;
+}
+
+#icon{
+	height:100px;
+	width: 100px;
+	border: none;
+	border-radius: 20px;
+}
+
+header p{
+	display: inline;
+	font-size: 10vh;
+	margin-bottom: 50px;
+}
+
+h3, p{
+	background: -webkit-linear-gradient(#fff, #63c5DA);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h3{
+	font-variant: small-caps;
+}
+
+.section{
+	margin-top: 10vh; 
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.donate{
+	height: 20vh;
+	display: block;
+	text-align: center;
+	bottom: 0%;
+}
+
+button{
+	display: block;
+	width: 200px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	font-family: Georgia;
+	font-variant: small-caps;
+	background-image: linear-gradient(-60deg,#0ab9cf, #63c5DA);
+	font-size: 3vh;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+		font-size: 2em;
+	}
+
+	button{
+		font-size: 3vh;
+		width: 200px;
+		padding: 15px 20px;
+	}
+
+	.section{
+		margin-top: 10px;
+		padding: 0 10px; 
+	}
+
+	header p{
+		font-size: 8vh;
+	}
+
+}
